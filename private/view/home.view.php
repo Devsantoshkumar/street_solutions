@@ -13,7 +13,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col"><h1>This is my website thewebsources.com</h1></div>
+        <div class="col"><h1 class="text-center">TheWebSource.com</h1></div>
     </div>
     <div class="row">
         <div class="col-5 m-auto py-5">
