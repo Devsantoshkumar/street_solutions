@@ -9,10 +9,10 @@ if($_SERVER['SERVER_NAME'] == "localhost"){
     define("DBDRIVER","mysql");
 }
 else{
-    define("DBNAME","id20404083_thewebdb");
-    define("DBHOST","localhost");
-    define("DBUSER","id20404083_root");
-    define("DBPASSWORD","GwWIfB=jlq-IS1u4");
+    define("DBNAME","u204810223_thewebdb");
+    define("DBHOST","thewebsources.com");
+    define("DBUSER","u204810223_thwebdbuser");
+    define("DBPASSWORD","Thewebuser@107");
     define("DBDRIVER","mysql");
 }
 
