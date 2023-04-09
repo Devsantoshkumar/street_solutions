@@ -12,6 +12,7 @@
             ?>
         </div>
     </div>
+    
     <div class="row">
         <div class="col"><h1 class="text-center">TheWebSource.com</h1></div>
     </div>
