@@ -2,10 +2,10 @@
 /////////////////////////////////////////
 
 
-define("DBNAME","u204810223_thewebdb");
-define("DBHOST","thewebsources.com");
-define("DBUSER","u204810223_thwebdbuser");
-define("DBPASSWORD","rFLcMWN9[C");
+define("DBNAME","u204810223_thewebsources");
+define("DBHOST","localhost");
+define("DBUSER","u204810223_thewebsources");
+define("DBPASSWORD","0fZ0TcYcCaP=");
 define("DBDRIVER","mysql");
 
 
