@@ -1,15 +1,14 @@
 <?php
 /////////////////////////////////////////
 
-
 define("DBNAME","u204810223_thewebsources");
 define("DBHOST","localhost");
 define("DBUSER","u204810223_thewebsources");
 define("DBPASSWORD","0fZ0TcYcCaP=");
 define("DBDRIVER","mysql");
 
-
 /////////////////////////////////////////
+
 
 /////////////////////////////////////
 
