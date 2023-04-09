@@ -1,20 +1,13 @@
 <?php
 /////////////////////////////////////////
 
-if($_SERVER['SERVER_NAME'] == "localhost"){
-    define("DBNAME","myweb");
-    define("DBHOST","localhost");
-    define("DBUSER","root");
-    define("DBPASSWORD","");
-    define("DBDRIVER","mysql");
-}
-else{
-    define("DBNAME","u204810223_thewebdb");
-    define("DBHOST","thewebsources.com");
-    define("DBUSER","u204810223_thwebdbuser");
-    define("DBPASSWORD","Thewebuser@107");
-    define("DBDRIVER","mysql");
-}
+
+define("DBNAME","u204810223_thewebdb");
+define("DBHOST","thewebsources.com");
+define("DBUSER","u204810223_thwebdbuser");
+define("DBPASSWORD","Thewebuser@107");
+define("DBDRIVER","mysql");
+
 
 /////////////////////////////////////////
 
