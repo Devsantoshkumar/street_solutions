@@ -5,7 +5,7 @@
 define("DBNAME","u204810223_thewebdb");
 define("DBHOST","thewebsources.com");
 define("DBUSER","u204810223_thwebdbuser");
-define("DBPASSWORD","Thewebuser@107");
+define("DBPASSWORD","rFLcMWN9[C");
 define("DBDRIVER","mysql");
 
 
