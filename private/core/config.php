@@ -41,14 +41,14 @@ define('ROOT', $_SERVER['DOCUMENT_ROOT']);     //  C:/xampp/htdocs
 
 //////////////////////////////////////////
 
-define("BASE","http://localhost/myweb/"); 
+define("BASE","https://thewebsources.com/"); 
 
 ///////////////////////////////////////////
 
 
 //////////////////////////////////////////
 
-define("ASSETS","http://localhost/myweb/assets/"); 
+define("ASSETS","https://thewebsources.com/assets/"); 
 
 ///////////////////////////////////////////
 
