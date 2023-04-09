@@ -1,0 +1,9 @@
+/* Header navigation style start */
+
+.tws_header{
+    min-height: 70px;
+    width: 100%;
+    background-color: var(--white);
+}
+
+/* Header navigation style end */
