@@ -1,11 +1,26 @@
 <?php
+
 /////////////////////////////////////////
 
-define("DBNAME","u204810223_thewebsources");
-define("DBHOST","localhost");
-define("DBUSER","u204810223_thewebsources");
-define("DBPASSWORD","0fZ0TcYcCaP=");
-define("DBDRIVER","mysql");
+if($_SERVER['REQUEST_URI'] == "/myweb/"){
+
+    define("DBNAME","myweb");
+    define("DBHOST","localhost");
+    define("DBUSER","root");
+    define("DBPASSWORD","");
+    define("DBDRIVER","mysql");
+
+}else{
+
+    define("DBNAME","u204810223_thewebsources");
+    define("DBHOST","localhost");
+    define("DBUSER","u204810223_thewebsources");
+    define("DBPASSWORD","0fZ0TcYcCaP=");
+    define("DBDRIVER","mysql");
+
+}
+
+
 
 /////////////////////////////////////////
 
@@ -33,14 +48,36 @@ define('ROOT', $_SERVER['DOCUMENT_ROOT']);     //  C:/xampp/htdocs
 
 //////////////////////////////////////////
 
-define("BASE","https://thewebsources.com/"); 
+
+
+if($_SERVER['REQUEST_URI'] == "/myweb/"){
+
+    define("BASE","http://localhost/myweb/"); 
+
+}else{
+
+    define("BASE","https://thewebsources.com/"); 
+
+}
+
+
 
 ///////////////////////////////////////////
 
 
 //////////////////////////////////////////
 
-define("ASSETS","https://thewebsources.com/assets/"); 
+
+
+if($_SERVER['REQUEST_URI'] == "/myweb/"){
+
+    define("ASSETS","http://localhost/myweb/assets/"); 
+
+}else{
+
+    define("ASSETS","https://thewebsources.com/assets/"); 
+
+}
 
 ///////////////////////////////////////////
 
