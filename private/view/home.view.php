@@ -33,7 +33,7 @@
         <div class="container py-4">
             <div class="row py-4">
                 <h1 class="col h4 fw-bold text-dark lang_heading text-uppercase">Download Projects</h1>
-                <div class="col-3 d-flex justify-content-end align-items-center"><a href="<?=BASE ?>/source" class="button">View More</a></div>
+                <div class="col-3 d-flex justify-content-end align-items-center"><a href="<?=BASE ?>projects" class="button">View More</a></div>
             </div>
             <div class="row">
                  <div class="col">
