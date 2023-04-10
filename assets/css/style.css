@@ -1,9 +1,11 @@
 /* Header navigation style start */
 
-.tws_header{
-    min-height: 70px;
+.tws_header {
+    min-height: 60px;
     width: 100%;
     background-color: var(--white);
+    font-size: 14px;
+    font-weight: 500;
 }
 
 /* Header navigation style end */

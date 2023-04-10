@@ -50,12 +50,13 @@ define('ROOT', $_SERVER['DOCUMENT_ROOT']);     //  C:/xampp/htdocs
 
 
 
-if($_SERVER['REQUEST_URI'] == "/myweb/"){
+if($_SERVER['REQUEST_URI'] == "myweb"){
 
+    
     define("BASE","http://localhost/myweb/"); 
-
+    
 }else{
-
+    
     define("BASE","https://thewebsources.com/"); 
 
 }
@@ -69,7 +70,7 @@ if($_SERVER['REQUEST_URI'] == "/myweb/"){
 
 
 
-if($_SERVER['REQUEST_URI'] == "/myweb/"){
+if($_SERVER['REQUEST_URI'] == "myweb"){
 
     define("ASSETS","http://localhost/myweb/assets/"); 
 

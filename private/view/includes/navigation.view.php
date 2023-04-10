@@ -10,23 +10,27 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-5 mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link fw-bold px-lg-3 px-0 text-dark fs-6" href="<?=BASE ?>">Home</a>
+          <a class="nav-link px-lg-3 px-0 text-dark" href="<?=BASE ?>">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fw-bold px-lg-3 px-0 text-dark fs-6" href="<?=BASE ?>source">Source</a>
+          <a class="nav-link px-lg-3 px-0 text-dark" href="<?=BASE ?>comming">Templates</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fw-bold px-lg-3 px-0 text-dark fs-6" href="<?=BASE ?>comming">Collage Projects</a>
+          <a class="nav-link px-lg-3 px-0 text-dark" href="<?=BASE ?>comming">Courses</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link fw-bold px-lg-3 px-0 text-dark fs-6" href="<?=BASE ?>comming">Internship Projects</a>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle px-lg-3 px-0 text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Download
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Internship Projects</a></li>
+            <li><a class="dropdown-item" href="#">Collage Projects</a></li>
+            <li><a class="dropdown-item" href="#">Source Code</a></li>
+            <li><a class="dropdown-item" href="#">Templates</a></li>
+          </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link fw-bold px-lg-3 px-0 text-dark fs-6" href="<?=BASE ?>comming">Templates</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link fw-bold px-lg-3 px-0 text-dark fs-6" href="<?=BASE ?>comming">Courses</a>
-        </li>
+
         </ul>
 
         
