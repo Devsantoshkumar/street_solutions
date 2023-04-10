@@ -1,7 +1,7 @@
 <!-- Header start -->
 <nav class="navbar shadow-sm sticky-top navbar-expand-lg tw-navigation py-3">
   <div class="container-fluid">
-    <a class="navbar-brand text-dark" href="<?=BASE ?>">TheWeb</a>
+    <a class="navbar-brand" href="<?=BASE ?>">TW sources</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -11,19 +11,19 @@
           <a class="nav-link fw-bold px-lg-3 px-0 text-dark" href="<?=BASE ?>">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fw-bold px-lg-3 px-0 text-dark" href="<?=BASE ?>/source">Source</a>
+          <a class="nav-link fw-bold px-lg-3 px-0 text-dark" href="<?=BASE ?>projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fw-bold px-lg-3 px-0 text-dark" href="<?=BASE ?>/comming">Collage Projects</a>
+          <a class="nav-link fw-bold px-lg-3 px-0 text-dark" href="<?=BASE ?>comming">Collage Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fw-bold px-lg-3 px-0 text-dark" href="<?=BASE ?>/comming">Internship Projects</a>
+          <a class="nav-link fw-bold px-lg-3 px-0 text-dark" href="<?=BASE ?>comming">Internship Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fw-bold px-lg-3 px-0 text-dark" href="<?=BASE ?>/comming">Templates</a>
+          <a class="nav-link fw-bold px-lg-3 px-0 text-dark" href="<?=BASE ?>comming">Templates</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fw-bold px-lg-3 px-0 text-dark" href="<?=BASE ?>/comming">Courses</a>
+          <a class="nav-link fw-bold px-lg-3 px-0 text-dark" href="<?=BASE ?>comming">Courses</a>
         </li>
         </ul>
 
