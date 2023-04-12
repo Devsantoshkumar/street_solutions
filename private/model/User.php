@@ -2,6 +2,8 @@
 
 class User extends Model
 {
+
+    protected $table = "users";
     protected $allowedColumns = [
         'firstname',
         'lastname',

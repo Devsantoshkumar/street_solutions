@@ -46,7 +46,7 @@ define('ROOT', $_SERVER['DOCUMENT_ROOT']);     //  C:/xampp/htdocs
 //////////////////////////////////////////
 
     
-// define("BASE","http://localhost/myweb/"); 
+// define("BASE","http://localhost/thewebsources/"); 
 
 
 define("BASE","https://thewebsources.com/"); 
@@ -57,7 +57,7 @@ define("BASE","https://thewebsources.com/");
 
 //////////////////////////////////////////
 
-// define("ASSETS","http://localhost/myweb/assets/"); 
+// define("ASSETS","http://localhost/thewebsources/assets/"); 
 
 define("ASSETS","https://thewebsources.com/assets/"); 
 
