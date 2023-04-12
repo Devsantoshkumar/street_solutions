@@ -31,8 +31,8 @@
         <ul class="navbar-nav ms-auto">
         <li class="nav-item">
            <?php 
-             if(false){
-                echo '<a href="'.BASE.'/logout" id="tw-user" class="fw-bold px-3 text-dark">'.Auth::user('firstname').'</a>';
+             if(Auth::loggedIn()){
+                echo '<a href="'.BASE.'logout" id="tw-user" class="fw-bold px-3 text-dark">'.Auth::user('firstname').'</a>';
              }else{
                 echo '<a class="nav-link fw-bold button" href="'.BASE.'signup">Signup</a>';
              }

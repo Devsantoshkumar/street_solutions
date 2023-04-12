@@ -2,13 +2,24 @@
 
 class User extends Model
 {
-
     protected $table = "users";
+    public $errors = [];
+
     protected $allowedColumns = [
         'firstname',
         'lastname',
-        'email'
+        'email',
+        'password',
+        'rank',
+        'email_varified',
+        'token',
+        'date'
     ];
+
+    protected $beforeInsert = [
+        'hash_password'
+    ];
+
 
 
     public function validate($data){
@@ -18,10 +29,6 @@ class User extends Model
         if(empty($data['firstname'])){
            $this->errors['firstname'] = "First name is required";
         }
-
-        if(empty($data['lastname'])){
-            $this->errors['lastname'] = "Last name is required";
-         }
 
         if(isset($data['email'])){
            if(empty($data['email']) || !filter_var($data['email'], FILTER_VALIDATE_EMAIL))
@@ -36,6 +43,15 @@ class User extends Model
            }
         }
 
+        if(isset($data['password'])){
+           if(($data['password'] != $data['cpassword']) || empty($data['password'])){
+              $this->errors['password'] = "Password not matched.";
+           }
+        }else{
+           unset($data['password']);
+           unset($data['cpassword']);
+        }
+
 
         if(count($this->errors) == 0){
            return true;
@@ -45,7 +61,11 @@ class User extends Model
 
 
 
-
+    public function hash_password($data)
+    {
+       $data['password'] = password_hash($data['password'],PASSWORD_DEFAULT);
+       return $data;
     }
+}
 
 ?>
