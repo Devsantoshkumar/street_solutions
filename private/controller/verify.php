@@ -1,6 +1,6 @@
 <?php
 
-class Verify_email extends Controller{
+class Verify extends Controller{
 
     function __construct(){
         if(!isset($_SESSION['EMAIL']) || Auth::loggedIn()){
@@ -67,7 +67,7 @@ class Verify_email extends Controller{
             $verify->update($id,$_VAR);
             $_SESSION['OTP'] = $_VAR['otp'];
             $_SESSION['OTPSEND'] = "OTP has been send again";
-            $this->redirect('verify_email');
+            $this->redirect('verify');
             
         }else{
             $errors['send_email_error'] = "Something wrong. Try again!";
