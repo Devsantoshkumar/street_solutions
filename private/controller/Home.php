@@ -9,8 +9,10 @@ class Home extends Controller{
         if(count($_POST)>0){
 
             if($user->validate($_POST)){
+
                 $user->insert($_POST);
                 $this->redirect("/");
+                
             }
 
         }

@@ -3,6 +3,7 @@
 require("config.php");
 require("database.php");
 require("controller.php");
+require("mail.php");
 require("model.php");
 require("functions.php");
 require("app.php");
