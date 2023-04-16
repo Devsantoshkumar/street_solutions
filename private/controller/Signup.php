@@ -45,7 +45,7 @@ class Signup extends Controller{
                   $_VAR['expired'] = (time() + (60 * 1));
                   $verify->insert($_VAR);
                   $_SESSION['OTPSEND'] = "OTP has been send check your email";
-                  $this->redirect('verify');
+                  $this->redirect('verify_email');
               }else{
                 $errors['send_email_error'] = "Something wrong. Try again!";
               }
