@@ -38,7 +38,7 @@ define('REQUEST_METHOD', $_SERVER['REQUEST_METHOD']);    // GET
 
 /////////////////////////////////////////
 
-define('ROOT', $_SERVER['DOCUMENT_ROOT']);     //  C:/xampp/htdocs
+define('ROOT', $_SERVER['DOCUMENT_ROOT']);     // C:/xampp/htdocs
 
 //////////////////////////////////////////
 

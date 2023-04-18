@@ -6,7 +6,7 @@
 
 <!-- home image banner style start -->
 <div class="container-fluid py-5 bg-white">
-    <div class="row tw-homeimg px-5 py-2">
+    <div class="row tw-homeimg px-3 px-sm-5 py-2">
         <div class="col-lg-6 col-12">
             <div class="card border-md border-0">
             <h1 class="h1 py-3">Learn web technologies<br> And Programming</h1>
@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="col-lg-6 order-lg-last order-first col-12">
-            <div class="card border-0">
+            <div class="card  border-0">
                 <img src="<?=ASSETS ?>/images/home-image.png" class="img-fluid" alt="...">
             </div>
         </div>

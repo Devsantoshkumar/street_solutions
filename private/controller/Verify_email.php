@@ -4,7 +4,7 @@ class Verify_email extends Controller{
 
     function __construct(){
         if(!isset($_SESSION['EMAIL']) || Auth::loggedIn()){
-           $this->redirect('home');
+           $this->redirect('/');
         }
     }
 

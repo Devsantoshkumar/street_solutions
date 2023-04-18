@@ -9,5 +9,6 @@
     <link rel="stylesheet" href="<?= ASSETS ?>/css/bootstrap.css">
     <link rel="stylesheet" href="<?= ASSETS ?>/css/global.css">
     <link rel="stylesheet" href="<?= ASSETS ?>/css/style.css">
+    <link rel="stylesheet" href="<?= ASSETS ?>/css/media-query.css">
 </head>
 <body>

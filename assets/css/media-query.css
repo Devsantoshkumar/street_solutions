@@ -1,0 +1,13 @@
+
+.tw-socialmedia{
+    width: 300px;
+}
+
+
+@media screen and (min-width: 400px) {
+    .tw-socialmedia a{
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+    }
+}

@@ -120,6 +120,7 @@
     transition: all 0.2s ease-in;
     transform-origin: bottom left;
 }
+
 .tw-testimonialimg:hover{
     transform: rotate(0);
     transition: all 0.2s ease-in;

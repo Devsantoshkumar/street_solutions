@@ -19,13 +19,13 @@
         </div>
     </div>
     <div class="row d-flex justify-content-center">
-        <div class="col-10 pb-5 pt-2">
-        <div class="card border-0 shadow-sm mb-3">
+        <div class="col-11 col-sm-10 pb-5 pt-2">
+        <div class="card border-0 shadow-sm mb-3 py-3 py-sm-2">
         <div class="row g-0">
-            <div class="col-md-6 p-5">
+            <div class="col-md-6 d-none d-md-block p-5">
             <img src="<?=ASSETS ?>/images/signup.jpg" class="img-fluid rounded-start" alt="...">
             </div>
-            <div class="col-md-6 p-5">
+            <div class="col-md-6 p-2 p-ms-5">
             <div class="card-header border-0 bg-white h3 text-center">Signup</div>
             <div class="card-body">
                 <form method="post">

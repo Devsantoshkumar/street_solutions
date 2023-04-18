@@ -12,6 +12,9 @@
         if(isset($_SESSION['USER']))
         {
             unset($_SESSION['USER']);
+            unset($_SESSION['EMAIL']);
+            unset($_SESSION['OTP']);
+            unset($_SESSION['OTPSEND']);
         }
       }
 
