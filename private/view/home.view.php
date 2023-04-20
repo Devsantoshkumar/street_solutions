@@ -39,7 +39,7 @@
 
 <!-- thewebsources home cards style start -->
 <div class="container-fluid thewebsources-card-container">
-    <div class="thewebsources-cards px-5 py-5">
+    <div class="thewebsources-cards px-md-5 px-3 py-5">
         <div class="card thewebsources-card d-flex flex-row justify-content-center align-items-center">
             <div class="home-card-icon rounded-circle"><i class="fa-solid fa-user-group"></i></div>
             <div class="home-card-text ms-3">
@@ -76,11 +76,11 @@
 <!-- thewebsources category style start -->
 
 <div class="container-fluid bg-white thewebsources-categories-section py-5">
-    <div class="heading-section d-flex align-items-center justify-content-between pb-5 px-5">
+    <div class="heading-section d-flex align-items-center justify-content-between pb-5 px-md-5 px-3">
        <h1 class="fs-3 fw-bold">Top Category</h1>
        <a href="#" class="home-categories-button">All Categories</a>
     </div>
-    <div class="thewebsources-categories-cards px-5">
+    <div class="thewebsources-categories-cards px-md-5 px-3">
         <a href="#" class="card category-card d-flex flex-row justify-content-center align-items-center">
              <div class="category-image-box">
                 <i class="fa-brands fa-html5"></i>
@@ -131,11 +131,11 @@
 
 <!-- home project section style start -->
 <div class="container-fluid bg-white pb-5">
-            <div class="row px-5 py-4">
+            <div class="row px-md-5 px-3 py-4">
                 <h1 class="col h4 fw-bold text-dark lang_heading text-uppercase">Download Projects</h1>
                 <div class="col-3 d-flex justify-content-end align-items-center"><a href="<?=BASE ?>projects" class="button">View More</a></div>
             </div>
-            <div class="row px-5">
+            <div class="row px-md-5 px-3">
                  <div class="col">
 
                     <div class="course_card_group">
