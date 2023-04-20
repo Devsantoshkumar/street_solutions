@@ -86,6 +86,10 @@
     font-weight: 800;
 }
 
+.thewebsources-banner-title{
+    color: var(--darkBlue);
+}
+
 .thewebsources-home-banner-search{
     padding: 15px 0;
 }
@@ -106,18 +110,22 @@
 }
 
 .thewebsource-input-group input{
-    width: 100%;
     height: 100%;
 }
 
 .search-icon{
     height: 50px;
-    width: 50px;
+    width: 60px;
     text-align: center;
     padding-left: 0;
     margin: 0 5px;
     background-color: var(--lightPink);
     color: var(--whiteColor);
+    transition: all 0.3s ease-in-out;
+}
+.search-icon:hover{
+    background-color: var(--darkGreen);
+    transition: all 0.3s ease-in-out;
 }
 /* home image banner style end */
 
@@ -127,6 +135,10 @@
     min-height: 200px;
     width: 100%;
     background-color: var(--whiteColor);
+}
+
+.home-card-text h1, .home-card-text h5{
+    color: var(--darkBlue);
 }
 
 .thewebsources-cards{

@@ -9,13 +9,13 @@
     <div class="row tw-homeimg px-3 px-sm-5 py-2">
         <div class="col-lg-6 col-12">
             <div class="card border-md border-0">
-            <h1 class="h1 py-3">Learn web technologies<br> And Programming</h1>
+            <h1 class="h1 py-3 thewebsources-banner-title">Make your development into<br> Professional development</h1>
             
             <div class="thewebsources-home-banner-search ">
             <form action="">
                     <div class="thewebsource-input-group rounded-pill bg-white">
                         <button class="thewebsources-search-button rounded-pill bg-transparent"><i class="fa-solid fa-search"></i></button>
-                        <input type="search" class="rounded-pill form-control border-0 shadow-none outline-none" placeholder="Search best courses, tutorial, project">
+                        <input type="search" class="form-control border-0 shadow-none outline-none" placeholder="Search best courses, tutorial, project">
                         <button class="thewebsources-search-button search-icon rounded-circle"><i class="fa-solid fa-arrow-right"></i></button>
                     </div>
                 </form>
@@ -91,15 +91,7 @@
         </a>
         <a href="#" class="card category-card d-flex flex-row justify-content-center align-items-center">
              <div class="category-image-box">
-                <i class="fa-brands fa-html5"></i>
-             </div>
-             <div class="categories-text">
-                <h1 class="fs-6 fw-bold text-uppercase">Learn mysql</h1>
-             </div>
-        </a>
-        <a href="#" class="card category-card d-flex flex-row justify-content-center align-items-center">
-             <div class="category-image-box">
-                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
              </div>
              <div class="categories-text">
                 <h1 class="fs-6 fw-bold text-uppercase">Learn css</h1>
@@ -107,7 +99,15 @@
         </a>
         <a href="#" class="card category-card d-flex flex-row justify-content-center align-items-center">
              <div class="category-image-box">
-                <i class="fa-brands fa-html5"></i>
+                <i class="fa-solid fa-database"></i>
+             </div>
+             <div class="categories-text">
+                <h1 class="fs-6 fw-bold text-uppercase">Learn mysql</h1>
+             </div>
+        </a>
+        <a href="#" class="card category-card d-flex flex-row justify-content-center align-items-center">
+             <div class="category-image-box">
+             <i class="fa-brands fa-js"></i>
              </div>
              <div class="categories-text">
                 <h1 class="fs-6 fw-bold text-uppercase">Learn javascript</h1>
@@ -115,7 +115,7 @@
         </a>
         <a href="#" class="card category-card d-flex flex-row justify-content-center align-items-center">
              <div class="category-image-box">
-                <i class="fa-brands fa-html5"></i>
+             <i class="fa-brands fa-php"></i>
              </div>
              <div class="categories-text">
                 <h1 class="fs-6 fw-bold text-uppercase">Learn php</h1>
