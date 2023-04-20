@@ -4,10 +4,22 @@
 }
 
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 400px) {
     .tw-socialmedia a{
         width: 30px;
         height: 30px;
         font-size: 15px;
+    }
+
+    .tws-topnav li{
+        border-bottom: 1px dashed var(--darkBlue);
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .tws-topnav li{
+        border-bottom: 1px dotted #4d4d4d;
+        padding: 5px 0;
     }
 }

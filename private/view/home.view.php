@@ -10,10 +10,20 @@
         <div class="col-lg-6 col-12">
             <div class="card border-md border-0">
             <h1 class="h1 py-3">Learn web technologies<br> And Programming</h1>
-            <p class="home_description">Unlock your coding potential with our extensive library of free project source codes, templates, and programming courses. Learn from experienced instructors, improve your coding skills, and take on new challenges. Join our community of aspiring and professional developers today, and level up your coding game for free!</p>
+            
+            <div class="thewebsources-home-banner-search ">
+            <form action="">
+                    <div class="thewebsource-input-group rounded-pill bg-white">
+                        <button class="thewebsources-search-button rounded-pill bg-transparent"><i class="fa-solid fa-search"></i></button>
+                        <input type="search" class="rounded-pill form-control border-0 shadow-none outline-none" placeholder="Search best courses, tutorial, project">
+                        <button class="thewebsources-search-button search-icon rounded-circle"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </form>
+            </div>
+
             <div class="button_group d-flex align-items-center flex-wrap py-4">
-                    <a href="#" class="button p-3 text-white fw-bold"><span>Learn Code</span></a>
-                    <a href="<?=BASE ?>/tutorials" class="button p-3 text-white fw-bold"><span>Courses</span></a>
+                    <a href="#" class="button p-3 text-white fw-bold rounded-pill"><span>Learn Code</span></a>
+                    <a href="<?=BASE ?>/tutorials" class="button p-3 text-white fw-bold rounded-pill"><span>Download Code</span></a>
             </div>
             </div>
         </div>
@@ -27,15 +37,105 @@
 <!-- home image banner style end -->
 
 
+<!-- thewebsources home cards style start -->
+<div class="container-fluid thewebsources-card-container">
+    <div class="thewebsources-cards px-5 py-5">
+        <div class="card thewebsources-card d-flex flex-row justify-content-center align-items-center">
+            <div class="home-card-icon rounded-circle"><i class="fa-solid fa-user-group"></i></div>
+            <div class="home-card-text ms-3">
+                <h1 class="fs-3 fw-bold">300K+</h1>
+                <h5 class="fs-6">Online Students</h5>
+            </div>
+        </div>
+        <div class="card thewebsources-card d-flex flex-row flex-row justify-content-center align-items-center">
+            <div class="home-card-icon rounded-circle"><i class="fa-solid fa-user-graduate"></i></div>
+            <div class="home-card-text ms-3">
+                <h1 class="fs-3 fw-bold">25K+</h1>
+                <h5 class="fs-6">Online Courses</h5>
+            </div>
+        </div>
+        <div class="card thewebsources-card d-flex flex-row flex-row justify-content-center align-items-center">
+            <div class="home-card-icon rounded-circle"><i class="fa-solid fa-pen-ruler"></i></div>
+            <div class="home-card-text ms-3">
+                <h1 class="fs-3 fw-bold">15K+</h1>
+                <h5 class="fs-6">Online Students</h5>
+            </div>
+        </div>
+        <div class="card thewebsources-card d-flex flex-row flex-row justify-content-center align-items-center">
+            <div class="home-card-icon rounded-circle"><i class="fa-solid fa-award"></i></div>
+            <div class="home-card-text ms-3">
+                <h1 class="fs-3 fw-bold">30K+</h1>
+                <h5 class="fs-6">Ceritified Courses</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- thewebsources home cards style end -->
+
+
+<!-- thewebsources category style start -->
+
+<div class="container-fluid bg-white thewebsources-categories-section py-5">
+    <div class="heading-section d-flex align-items-center justify-content-between pb-5 px-5">
+       <h1 class="fs-3 fw-bold">Top Category</h1>
+       <a href="#" class="home-categories-button">All Categories</a>
+    </div>
+    <div class="thewebsources-categories-cards px-5">
+        <a href="#" class="card category-card d-flex flex-row justify-content-center align-items-center">
+             <div class="category-image-box">
+                <i class="fa-brands fa-html5"></i>
+             </div>
+             <div class="categories-text">
+                <h1 class="fs-6 fw-bold text-uppercase">Learn html</h1>
+             </div>
+        </a>
+        <a href="#" class="card category-card d-flex flex-row justify-content-center align-items-center">
+             <div class="category-image-box">
+                <i class="fa-brands fa-html5"></i>
+             </div>
+             <div class="categories-text">
+                <h1 class="fs-6 fw-bold text-uppercase">Learn mysql</h1>
+             </div>
+        </a>
+        <a href="#" class="card category-card d-flex flex-row justify-content-center align-items-center">
+             <div class="category-image-box">
+                <i class="fa-brands fa-html5"></i>
+             </div>
+             <div class="categories-text">
+                <h1 class="fs-6 fw-bold text-uppercase">Learn css</h1>
+             </div>
+        </a>
+        <a href="#" class="card category-card d-flex flex-row justify-content-center align-items-center">
+             <div class="category-image-box">
+                <i class="fa-brands fa-html5"></i>
+             </div>
+             <div class="categories-text">
+                <h1 class="fs-6 fw-bold text-uppercase">Learn javascript</h1>
+             </div>
+        </a>
+        <a href="#" class="card category-card d-flex flex-row justify-content-center align-items-center">
+             <div class="category-image-box">
+                <i class="fa-brands fa-html5"></i>
+             </div>
+             <div class="categories-text">
+                <h1 class="fs-6 fw-bold text-uppercase">Learn php</h1>
+             </div>
+        </a>
+    </div>
+</div>
+
+<!-- thewebsources category style end -->
+
+
+
 
 <!-- home project section style start -->
-<div class="container-fluid bg-light pb-5">
-        <div class="container py-4">
-            <div class="row py-4">
+<div class="container-fluid bg-white pb-5">
+            <div class="row px-5 py-4">
                 <h1 class="col h4 fw-bold text-dark lang_heading text-uppercase">Download Projects</h1>
                 <div class="col-3 d-flex justify-content-end align-items-center"><a href="<?=BASE ?>projects" class="button">View More</a></div>
             </div>
-            <div class="row">
+            <div class="row px-5">
                  <div class="col">
 
                     <div class="course_card_group">
@@ -44,7 +144,7 @@
                             <img src="<?=ASSETS ?>images/634249the-web30background45.jpg" class="card-img-top rounded-3" alt="...">
                             <div class="card-body pb-0">
                             <span class="time rounded-pill">4th Jan 2023</span>
-                            <h1 class="card-title text-dark pt-1 h6">How to create navigation using html css</h1>
+                            <h1 class="card-title text-dark pt-3 pb-2 h5">How to create navigation using html css</h1>
                             <div class="details py-2 d-flex justify-content-between align-items-center">
                                 <section class="d-flex justify-content-center align-items-center">
                                     <span class="me-2 fs-6"><i class="fa fa-download"></i></span>
@@ -61,7 +161,7 @@
                             <img src="<?=ASSETS ?>images/634249the-web30background45.jpg" class="card-img-top rounded-3" alt="...">
                             <div class="card-body pb-0">
                             <span class="time rounded-pill">4th Jan 2023</span>
-                            <h1 class="card-title text-dark pt-1 h6">How to create navigation using html css</h1>
+                            <h1 class="card-title text-dark pt-3 pb-2 h5">How to create navigation using html css</h1>
                             <div class="details py-2 d-flex justify-content-between align-items-center">
                                 <section class="d-flex justify-content-center align-items-center">
                                     <span class="me-2 fs-6"><i class="fa fa-download"></i></span>
@@ -79,7 +179,7 @@
                             <img src="<?=ASSETS ?>images/634249the-web30background45.jpg" class="card-img-top rounded-3" alt="...">
                             <div class="card-body pb-0">
                             <span class="time rounded-pill">4th Jan 2023</span>
-                            <h1 class="card-title text-dark pt-1 h6">How to create navigation using html css</h1>
+                            <h1 class="card-title text-dark pt-3 pb-2 h5">How to create navigation using html css</h1>
                             <div class="details py-2 d-flex justify-content-between align-items-center">
                                 <section class="d-flex justify-content-center align-items-center">
                                     <span class="me-2 fs-6"><i class="fa fa-download"></i></span>
@@ -96,7 +196,7 @@
                             <img src="<?=ASSETS ?>images/634249the-web30background45.jpg" class="card-img-top rounded-3" alt="...">
                             <div class="card-body pb-0">
                             <span class="time rounded-pill">4th Jan 2023</span>
-                            <h1 class="card-title text-dark pt-1 h6">How to create navigation using html css</h1>
+                            <h1 class="card-title text-dark pt-3 pb-2 h5">How to create navigation using html css</h1>
                             <div class="details py-2 d-flex justify-content-between align-items-center">
                                 <section class="d-flex justify-content-center align-items-center">
                                     <span class="me-2 fs-6"><i class="fa fa-download"></i></span>
@@ -113,7 +213,6 @@
 
                  </div>
             </div>
-        </div>
    </div>
 <!-- home project section style end -->
 

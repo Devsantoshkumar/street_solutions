@@ -1,4 +1,28 @@
 /* Navigation style start */
+.thewebsources-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.thewebsources-logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.theweb{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.sources{
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--lightPink);
+}
+
 .tws-topnav li a{
     font-size: 14px;
 }
@@ -62,17 +86,159 @@
     font-weight: 800;
 }
 
-.tw-homeimg p{
-    font-weight: 500;
+.thewebsources-home-banner-search{
+    padding: 15px 0;
+}
+
+.thewebsource-input-group{
+    width: 100%;
+    height: 60px;
+    border: 2px solid var(--lightPink);
+    display: flex;
+    align-items: center;
+}
+
+.thewebsources-search-button{
+    padding-left: 20px;
+    height: 100%;
+    font-size: 18px;
+    color: var(--lightPink);
+}
+
+.thewebsource-input-group input{
+    width: 100%;
+    height: 100%;
+}
+
+.search-icon{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding-left: 0;
+    margin: 0 5px;
+    background-color: var(--lightPink);
+    color: var(--whiteColor);
 }
 /* home image banner style end */
+
+
+/* thewebsources card style start */
+.thewebsources-card-container{
+    min-height: 200px;
+    width: 100%;
+    background-color: var(--whiteColor);
+}
+
+.thewebsources-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    grid-template-rows: repeat(1, 150px);
+    grid-auto-rows: 150px;
+}
+.thewebsources-card{
+    transition: all 0.3s ease-in-out;
+}
+.thewebsources-card:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+}
+
+.home-card-icon{
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+
+.thewebsources-card:nth-child(1) .home-card-icon{
+    background-color: var(--transYellow);
+    color: var(--darkYellow);
+}
+
+.thewebsources-card:nth-child(2) .home-card-icon{
+    background-color: var(--transPink);
+    color: var(--lightPink);
+}
+
+.thewebsources-card:nth-child(3) .home-card-icon{
+    background-color: var(--transBlue);
+    color: var(--darkBlue);
+}
+
+.thewebsources-card:nth-child(4) .home-card-icon{
+    background-color: var(--transGreen);
+    color: var(--darkGreen);
+}
+
+/* thewebsources card style end */
+
+
+/* thewebsources categories style start */
+
+.thewebsources-categories-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    grid-template-rows: repeat(1, 100px);
+    grid-auto-rows: 100px;
+}
+
+.category-card{
+    font-size: 25px;
+    transition: all 0.2s ease-in-out;
+    background-color: var(--whiteColor);
+    gap: 15px;
+}
+
+.category-card:hover{
+    transform: translateY(10px);
+    transition: all 0.2s ease-in-out;
+}
+
+.category-card:hover h1{
+    transform: translateX(0);
+    transition: all 0.2s ease-in-out;
+    color: var(--lightPink);
+}
+
+.category-card h1{
+    color: var(--darkBlue);
+    transform: translateX(5px);
+    transition: all 0.2s ease-in-out;
+}
+
+.category-image-box{
+   width: 50px;
+   height: 50px;
+   background-color: var(--lightPink);
+   text-align: center;
+   border-radius: 50%;
+   transition: all 0.2s ease-in-out;
+}
+
+.category-card:hover .category-image-box{
+    background-color: var(--darkGreen);
+    transition: all 0.2s ease-in-out;
+}
+
+.category-image-box i{
+    font-size: 30px;
+    line-height: 50px;
+    color: var(--whiteColor);
+}
+
+/* thewebsources categories style end */
 
 
 /* home project section style start */
 
 .course_card_group{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 25px;
 }
 .course_card{
