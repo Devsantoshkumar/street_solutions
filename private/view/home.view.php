@@ -9,13 +9,13 @@
     <div class="row tw-homeimg px-3 px-sm-5 py-2">
         <div class="col-lg-6 col-12">
             <div class="card border-md border-0">
-            <h1 class="h1 py-3 thewebsources-banner-title">Make your development into<br> Professional development</h1>
+            <h1 class="h1 py-3 thewebsources-banner-title">Create your own digital masterpiece with our step-by-step projects and tutorials.</h1>
             
             <div class="thewebsources-home-banner-search ">
             <form action="">
                     <div class="thewebsource-input-group rounded-pill bg-white">
                         <button class="thewebsources-search-button rounded-pill bg-transparent"><i class="fa-solid fa-search"></i></button>
-                        <input type="search" class="form-control border-0 shadow-none outline-none" placeholder="Search best courses, tutorial, project">
+                        <input type="search" class="form-control border-0 shadow-none outline-none" placeholder="Search project you want to create...">
                         <button class="thewebsources-search-button search-icon rounded-circle"><i class="fa-solid fa-arrow-right"></i></button>
                     </div>
                 </form>
