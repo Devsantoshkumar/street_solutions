@@ -22,7 +22,7 @@
             </div>
 
             <div class="button_group d-flex align-items-center flex-wrap py-4">
-                    <a href="#" class="button p-3 text-white fw-bold rounded-pill"><span>Code</span></a>
+                    <a href="#" class="button p-3 text-white fw-bold rounded-pill"><span>Meke Code</span></a>
                     <a href="<?=BASE ?>/tutorials" class="button p-3 text-white fw-bold rounded-pill"><span>Download Code</span></a>
             </div>
             </div>
