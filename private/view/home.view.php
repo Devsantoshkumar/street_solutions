@@ -9,7 +9,7 @@
     <div class="row tw-homeimg px-3 px-sm-5 py-2">
         <div class="col-lg-6 col-12">
             <div class="card border-md border-0">
-            <h1 class="h1 py-3 thewebsources-banner-title">Create your own digital masterpiece with our step-by-step projects and tutorials. Santosh</h1>
+            <h1 class="h1 py-3 thewebsources-banner-title">Create your own digital masterpiece with our step-by-step projects and tutorials.</h1>
             
             <div class="thewebsources-home-banner-search ">
             <form action="">
@@ -22,7 +22,7 @@
             </div>
 
             <div class="button_group d-flex align-items-center flex-wrap py-4">
-                    <a href="#" class="button p-3 text-white fw-bold rounded-pill"><span>Learn Code</span></a>
+                    <a href="#" class="button p-3 text-white fw-bold rounded-pill"><span>Code</span></a>
                     <a href="<?=BASE ?>/tutorials" class="button p-3 text-white fw-bold rounded-pill"><span>Download Code</span></a>
             </div>
             </div>
