@@ -12,7 +12,7 @@
     define("DBNAME","u204810223_thewebsources");
     define("DBHOST","localhost");
     define("DBUSER","u204810223_thewebsources");
-    define("DBPASSWORD","0fZ0TcYcCaP=");
+    define("DBPASSWORD","S5wDbmG?5");
     define("DBDRIVER","mysql");
 
 
