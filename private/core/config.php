@@ -2,21 +2,24 @@
 
 /////////////////////////////////////////
 
-    // define("DBNAME","myweb");
-    // define("DBHOST","localhost");
-    // define("DBUSER","root");
-    // define("DBPASSWORD","");
-    // define("DBDRIVER","mysql");
 
+    if($_SERVER['SERVER_NAME'] == 'localhost'){
+        
+        define("DBNAME","myweb");
+        define("DBHOST","localhost");
+        define("DBUSER","root");
+        define("DBPASSWORD","");
+        define("DBDRIVER","mysql");
 
-    define("DBNAME","u204810223_thewebsources");
-    define("DBHOST","localhost");
-    define("DBUSER","u204810223_thewebsources");
-    define("DBPASSWORD","S5wDbmG?5");
-    define("DBDRIVER","mysql");
+    }else{
+        
+        define("DBNAME","u204810223_thewebsources");
+        define("DBHOST","localhost");
+        define("DBUSER","u204810223_thewebsources");
+        define("DBPASSWORD","S5wDbmG?5");
+        define("DBDRIVER","mysql");
 
-
-
+    }
 
 /////////////////////////////////////////
 
@@ -44,21 +47,31 @@ define('ROOT', $_SERVER['DOCUMENT_ROOT']);     // C:/xampp/htdocs
 
 //////////////////////////////////////////
 
+
+if($_SERVER['SERVER_NAME'] == 'localhost'){
+
+    define("BASE","http://localhost/thewebsources/"); 
+
+}else{
+
+    define("BASE","https://thewebsources.com/"); 
+}
     
-// define("BASE","http://localhost/thewebsources/"); 
-
-
-define("BASE","https://thewebsources.com/"); 
-
 
 ///////////////////////////////////////////
 
 
 //////////////////////////////////////////
 
-// define("ASSETS","http://localhost/thewebsources/assets/"); 
+if($_SERVER['SERVER_NAME'] == 'localhost'){
 
-define("ASSETS","https://thewebsources.com/assets/"); 
+    define("ASSETS","http://localhost/thewebsources/assets/"); 
+}else{
+
+    define("ASSETS","https://thewebsources.com/assets/"); 
+}
+
+
 
 
 ///////////////////////////////////////////
