@@ -416,3 +416,56 @@
     font-weight: 700;
     padding: 20px;
 }
+
+
+/* User form styling start */
+.userForm{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.userForm #fname{
+    flex: 1 0 250px;
+}
+
+.userForm #lname{
+    flex: 1 0 250px;
+}
+.userForm #email{
+    flex: 1 0 auto;
+}
+
+.userForm #password{
+    flex: 1 0 250px;
+}
+
+.userForm #cpassword{
+    flex: 1 0 250px;
+}
+
+.userForm #button{
+    flex: 1 0 100px;
+}
+
+.userLoginForm #lemail{
+    flex: 1 0 auto;
+}
+
+.userLoginForm #lpassword{
+    flex: 1 0 auto;
+}
+
+
+.userFormImage{
+    background-color: var(--shyanColor);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.userSignupForm{
+    background-image: url("../images/signup.png");
+}
+
+.userLoginForm{
+    background-image: url("../images/login.png");
+}

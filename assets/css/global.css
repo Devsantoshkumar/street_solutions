@@ -25,6 +25,7 @@
     --dark2: #1C1F26;
     --dark3: #a8b3cf33;
     --dark-blue-color: #858ea2;
+    --shyanColor: #1A374D;
 }
 
 body{
@@ -49,14 +50,12 @@ button{
     padding: 8px 10px;
     margin: 0 10px;
     border-radius: 5px;
-    width: max-content;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     background-color: var(--lightPink);
     color: var(--whiteColor);
     font-size: 14px;
-    text-align: center;
 }
 
 .submit{
