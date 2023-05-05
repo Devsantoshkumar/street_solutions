@@ -17,7 +17,9 @@
                 </div>
                 <button type="submit" id="button"  class="border-0 btn btn-danger fs-5 text-uppercase mx-0 p-3 formBTN">login</button>
             </form>
+            <small class="py-3 mx-5">Create a new account. <a href="<?=BASE ?>signup" class="text-primary fw-bold">Signup</a></small>
         </div>
+        
     </div>
 </div>
 

@@ -25,6 +25,7 @@
                 </div>
                     <button type="submit" id="button"  class="border-0 btn btn-danger fs-5 text-uppercase mx-0 p-3 formBTN">Signup</button>
             </form>
+            <small class="py-3 mx-5">Already have an account <a href="<?=BASE ?>login" class="text-primary fw-bold">Login</a></small>
         </div>
     </div>
 </div>

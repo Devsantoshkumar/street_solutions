@@ -42,7 +42,7 @@ class Signup extends Controller{
 
                   $_VAR['email'] = $emailId;
                   $_VAR['otp'] = $emailOtp;
-                  $_VAR['expired'] = (time() + (60 * 1));
+                  $_VAR['expired'] = (time() + (60 * 5));
                   $verify->insert($_VAR);
                   $_SESSION['OTPSEND'] = "OTP has been send check your email";
                   $this->redirect('verify_email');

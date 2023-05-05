@@ -2,11 +2,11 @@
 
 class Verify_email extends Controller{
 
-    function __construct(){
-        if(!isset($_SESSION['EMAIL']) || Auth::loggedIn()){
-           $this->redirect('/');
-        }
-    }
+    // function __construct(){
+    //     if(!isset($_SESSION['EMAIL']) || Auth::loggedIn()){
+    //        $this->redirect('/');
+    //     }
+    // }
 
     function index(){
 
@@ -46,7 +46,7 @@ class Verify_email extends Controller{
 
         $_VAR['email'] = $_SESSION['EMAIL'];
         $_VAR['otp'] = rand(111111,999999);
-        $_VAR['expired'] = (time() + (60 * 1));
+        $_VAR['expired'] = (time() + (60 * 5));
 
         $message = "<b>Hello sir/madam </b><br/><br/>";
         $message .= "Welcome to The Web <br/><br/>";

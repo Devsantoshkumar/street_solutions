@@ -35,9 +35,9 @@
         <li class="nav-item">
            <?php 
              if(Auth::loggedIn()){
-                echo '<a href="'.BASE.'logout" class="nav-link fw-bold button px-3 rounded-pill">Logout</a>';
+                echo '<a href="'.BASE.'logout" class="nav-link button px-3 rounded text-white">Logout</a>';
              }else{
-                echo '<a class="nav-link fw-bold button px-3 rounded-pill" href="'.BASE.'signup">Signup</a>';
+                echo '<a class="nav-link button px-3 rounded text-white" href="'.BASE.'signup">Signup</a>';
              }
            ?>
         </li>
