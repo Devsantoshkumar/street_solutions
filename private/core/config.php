@@ -49,7 +49,7 @@ define('ROOT', $_SERVER['DOCUMENT_ROOT']);     // C:/xampp/htdocs
 
 if($_SERVER['SERVER_NAME'] == 'localhost'){
 
-    define("BASE","http://localhost/thewebsources/"); 
+    define("BASE","http://localhost/street_solutions/"); 
 
 }else{
 
@@ -64,7 +64,7 @@ if($_SERVER['SERVER_NAME'] == 'localhost'){
 
 if($_SERVER['SERVER_NAME'] == 'localhost'){
 
-    define("ASSETS","http://localhost/thewebsources/assets/"); 
+    define("ASSETS","http://localhost/street_solutions/assets/"); 
 }else{
 
     define("ASSETS","https://thewebsources.com/assets/"); 
