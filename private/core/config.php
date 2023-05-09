@@ -4,8 +4,7 @@
 
 
     if($_SERVER['SERVER_NAME'] == 'localhost'){
-        
-        define("DBNAME","myweb");
+        define("DBNAME","streetsolution");
         define("DBHOST","localhost");
         define("DBUSER","root");
         define("DBPASSWORD","");
