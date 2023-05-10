@@ -60,16 +60,23 @@ if(count($errors)>0){
                                 <div class="col">
                                 <select name="state" class="form-control my-3">
                                     <option selected disabled>Select State</option>
-                                    <option value="up">Uttar Pradesh</option>
-                                    <option value="gujrat">Gujrat</option>
-                                    <option value="vihar">Vihar</option>
+                                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                    <option value="Maharashtra">Maharashtra</option>
+                                    <option value="Tamil Nadu">Tamil Nadu</option>
+                                    <option value="Karnataka">Karnataka</option>
                                 </select>
 
                                 <select name="city" class="form-control my-3">
                                     <option selected disabled>Select City</option>
+                                    <option value="Visakhapatnam">Visakhapatnam</option>
+                                    <option value="Vijayawada">Vijayawada</option>
+                                    <option value="Nellore">Nellore</option>
+                                    <option value="Tirupati">Tirupati</option>
                                     <option value="Lucknow">Lucknow</option>
                                     <option value="Kanpur">Kanpur</option>
-                                    <option value="Noida">Noida</option>
+                                    <option value="Agra">Agra</option>
+                                    <option value="Varanasi">Varanasi</option>
+                                    <option value="Allahabad">Allahabad</option>
                                 </select>
                                 </div>
                             </div>
