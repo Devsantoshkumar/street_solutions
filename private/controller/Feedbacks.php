@@ -1,6 +1,13 @@
 <?php
 
 class Feedbacks extends Controller{
+
+    function __construct(){
+        if(!Auth::loggedIn()){
+          $this->redirect('login');
+        }
+    }
+
     function index(){
 
         $errors = [];
@@ -16,6 +23,7 @@ class Feedbacks extends Controller{
                     $_POST['image'] =  $feedback->uploadImage($_FILES['image']);
                     $_POST['video'] =  $feedback->uploadImage($_FILES['video']);
                     $_POST['date'] = date("y-m-d H:i:s");
+                    $_POST['citizen_id'] = Auth::user("users_id");
                     $feedback->insert($_POST);
                     $this->redirect("home");
 

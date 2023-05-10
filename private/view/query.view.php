@@ -1,7 +1,6 @@
 <?php 
   $this->view("includes/header");
   $this->view("includes/navigation");
-
 ?>
 
 <div class="row">
@@ -20,49 +19,28 @@
     </select>
   </div>
   <div class="col-1">
-
   </div>
+  <?php if($rows): ?>
   <div class="col-8 mt-sm-5">
+    <?php 
+       foreach($rows as $row):
+     ?>
     <div class="row border border-2 pt-sm-2 pb-sm-2">
       <div class="col-2">
       <img src="<?=ASSETS ?>images/img4.jpg" alt="" class="ms-sm-2 " height="130s" >
       </div>
       <div class="col-10 ">
-      <h2>Title</h2>
+      <h2><?=$row->title; ?></h2>
       <br>
-      <p >Description</p>
-      <span  >location</span>
-      <span class="ms-sm-5">user name</span>
-      <span  class="ms-sm-5">Date</span>
+      <p ><?=$row->description; ?></p>
+      <span  ><?=$row->location; ?></span>
+      <span class="ms-sm-5"><?=$row->citizen_id; ?></span>
+      <span  class="ms-sm-5"><?=$row->date; ?></span>
       </div>
     </div> <br> <br>
-    <div class="row border border-2 pt-sm-2 pb-sm-2">
-      <div class="col-2">
-      <img src="<?=ASSETS ?>images/img4.jpg" alt="" class="ms-sm-2 " height="130s" >
-      </div>
-      <div class="col-10 ">
-      <h2>Title</h2>
-      <br>
-      <p >Description</p>
-      <span  >location</span>
-      <span class="ms-sm-5">user name</span>
-      <span  class="ms-sm-5">Date</span>
-      </div>
-    </div> <br>
-    <div class="row border border-2 pt-sm-2 pb-sm-2">
-      <div class="col-2">
-      <img src="<?=ASSETS ?>images/img4.jpg" alt="" class="ms-sm-2 " height="130s" >
-      </div>
-      <div class="col-10 ">
-      <h2>Title</h2>
-      <br>
-      <p >Description</p>
-      <span  >location</span>
-      <span class="ms-sm-5">user name</span>
-      <span  class="ms-sm-5">Date</span>
-      </div>
-    </div>
+    <?php endforeach; ?>
    </div>
+   <?php endif; ?>
   </div>
 </div>
 

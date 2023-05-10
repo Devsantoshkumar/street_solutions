@@ -44,7 +44,7 @@ class User extends Model
            }
         }
 
-        if(isset($data['password'])){
+        if(isset($data['password']) && isset($data['cpassword'])){
            if(($data['password'] != $data['cpassword']) || empty($data['password'])){
               $this->errors['password'] = "Password not matched.";
            }

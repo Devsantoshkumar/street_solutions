@@ -11,8 +11,9 @@ class Feedback extends Model
         'image',
         'video',
         'location',
-        'citize_id',
-        'date'
+        'citizen_id',
+        'date',
+        'department_id'
     ];
 
 

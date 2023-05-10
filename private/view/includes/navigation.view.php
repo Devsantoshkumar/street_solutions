@@ -18,6 +18,9 @@
         <li class="nav-item">
           <a class="nav-link ms-sm-5" href="<?=BASE ?>signup">Signup</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link ms-sm-5" href="<?=BASE ?>logout">Logout</a>
+        </li>
       </ul>
     </div>
   </div>
