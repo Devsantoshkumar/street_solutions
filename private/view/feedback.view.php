@@ -92,11 +92,8 @@ if(count($errors)>0){
     </div>
 
 
-    
 
 <?php  $this->view("includes/footer"); ?>
-
-
 
 <script>
 
