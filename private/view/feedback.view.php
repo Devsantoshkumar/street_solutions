@@ -1,8 +1,7 @@
 <?php 
-$this->view("includes/header");
-$this->view("includes/navigation");
+    $this->view("includes/header");
+    $this->view("includes/navigation");
 ?>
-
 <?php 
 
 if(count($errors)>0){
@@ -38,6 +37,26 @@ if(count($errors)>0){
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <?php 
+                                      $depart = new Dapartment();
+                                      $dep = $depart->findAll();
+                                      if($dep):
+                                    ?>
+                                   <select name="department_id" class="form-control">
+                                    <option selected disabled>Select Level of department</option>
+                                    <?php foreach($dep as $row): ?>
+                                    <option value="<?= $row->dapartments_id; ?>"><?= $row->dapartment; ?></option>
+                                    <?php endforeach; ?>
+                                    </select>
+                                <?php endif; ?>
+                                </div>
+                            </div>
+                            <br><br>
+
+
                             <div class="input-group my-2">
                                 <textarea name="location" id="address" class="form-control" rows="3"></textarea>
                                 <input type="hidden" class="form-control" name="latitude" id="latitude">
