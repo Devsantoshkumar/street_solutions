@@ -4,9 +4,9 @@
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner" style="height: 600px">
+  <div class="carousel-inner" >
     <div class="carousel-item active">
-      <img src="<?=ASSETS ?>images/img1.jpg" class="d-block w-100" alt="...">
+      <img src="<?=ASSETS ?>images/img1.jpg" class="d-block w-100" alt="..." height="600px" style="object-fit:cover;" >
     </div>
     <div class="carousel-item">
       <img src="<?=ASSETS ?>images/img2.jpg" class="d-block w-100" alt="...">

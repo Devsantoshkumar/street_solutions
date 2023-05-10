@@ -23,6 +23,15 @@
     border:1px solid  black;
     margin: 150px auto;
     background-color: var(--whiteColor);
-    box-shadow: 10px 10px 10px 10px white;
-    border-radius: 28px;
+    border-radius: 28px;          
+}
+.carousel-item img
+{
+    
+    height:700px;
+
+}
+#footer
+{
+    background-color: var(--transBlue);
 }
