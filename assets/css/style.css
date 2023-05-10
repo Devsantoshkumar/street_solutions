@@ -1,11 +1,29 @@
+
 /*  feedback section start */
 .feedback{
     min-height: 100vh;
     width: 100%;
-    background-image: url("../images/374759the-web30background41.jpg");
+    background-image: url("../images/img2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba(255, 0, 51, 0.685);
 }
 
+#navigation
+{
+    background-color: var(--transBlue);
+    height:70px;
+}
+
+
+#box
+{
+    height:300px;
+    width: 60%;
+    border:1px solid  black;
+    margin: 150px auto;
+    background-color: var(--whiteColor);
+    box-shadow: 10px 10px 10px 10px white;
+    border-radius: 28px;
+}

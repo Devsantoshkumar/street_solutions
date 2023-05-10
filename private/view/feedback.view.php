@@ -1,4 +1,15 @@
-<?php $this->view("includes/header"); ?>
+<?php 
+$this->view("includes/header");
+$this->view("includes/navigation");
+?>
+
+<?php 
+
+if(count($errors)>0){
+    show($errors);
+}
+
+?>
 
     <div class="container-fluid feedback">
         <div class="row d-flex justify-content-center align-items-center py-5">
@@ -8,7 +19,7 @@
                         <h4 class="text-uppercase">Send Your Feedback</h4>
                     </div>
                     <div class="card-body p-5">
-                        <form method="POST">
+                        <form method="POST" enctype="multipart/form-data">
                             <div class="input-group my-2">
                                 <input type="text" name="title" class="form-control" id="title" placeholder="Write subject">
                             </div>
@@ -28,12 +39,12 @@
                                 </div>
                             </div>
                             <div class="input-group my-2">
-                                <textarea name="address" id="address" class="form-control" rows="3"></textarea>
+                                <textarea name="location" id="address" class="form-control" rows="3"></textarea>
                                 <input type="hidden" class="form-control" name="latitude" id="latitude">
                                 <input type="hidden" class="form-control" name="longitude" id="longitude">
                             </div>
 
-                            <button class="btn btn-primary">Send</button>
+                            <button class="btn btn-primary">Send Feedback</button>
                         </form>
                         <div id="map" class="my-3"></div>
                     </div>
