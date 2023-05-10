@@ -56,6 +56,25 @@ if(count($errors)>0){
                             </div>
                             <br><br>
 
+                            <div class="row">
+                                <div class="col">
+                                <select name="state" class="form-control my-3">
+                                    <option selected disabled>Select State</option>
+                                    <option value="up">Uttar Pradesh</option>
+                                    <option value="gujrat">Gujrat</option>
+                                    <option value="vihar">Vihar</option>
+                                </select>
+
+                                <select name="city" class="form-control my-3">
+                                    <option selected disabled>Select City</option>
+                                    <option value="Lucknow">Lucknow</option>
+                                    <option value="Kanpur">Kanpur</option>
+                                    <option value="Noida">Noida</option>
+                                </select>
+                                </div>
+                            </div>
+                            <br><br>
+
 
                             <div class="input-group my-2">
                                 <textarea name="location" id="address" class="form-control" rows="3"></textarea>

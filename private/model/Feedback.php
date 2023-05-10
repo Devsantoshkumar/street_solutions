@@ -13,6 +13,9 @@ class Feedback extends Model
         'location',
         'citizen_id',
         'date',
+        'state',
+        'city',
+        'status',
         'department_id'
     ];
 
