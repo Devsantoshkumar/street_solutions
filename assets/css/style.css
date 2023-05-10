@@ -13,6 +13,14 @@
     box-shadow: 10px 10px 10px 10px white;
     border-radius: 28px;
 }
+.location
+{
+    height: 500px;
+}
+#title
+{
+ height:30px;
+}
 
 .carousel-item img{
     width: 100%;
