@@ -6,13 +6,10 @@ class User extends Model
     public $errors = [];
 
     protected $allowedColumns = [
-        'firstname',
-        'lastname',
+        'name',
         'email',
         'password',
-        'rank',
-        'email_varified',
-        'token',
+        'phone',
         'date'
     ];
 
@@ -26,9 +23,13 @@ class User extends Model
 
         $this->errors = [];
 
-        if(empty($data['firstname'])){
-           $this->errors['firstname'] = "First name is required";
+        if(empty($data['name'])){
+           $this->errors['name'] = "Name is required";
         }
+
+        if(empty($data['phone'])){
+         $this->errors['phone'] = "phone is required";
+      }
 
         if(isset($data['email'])){
            if(empty($data['email']) || !filter_var($data['email'], FILTER_VALIDATE_EMAIL))

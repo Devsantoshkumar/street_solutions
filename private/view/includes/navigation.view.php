@@ -13,7 +13,10 @@
           <a class="nav-link ms-sm-5" href="<?=BASE ?>feedbacks">Feedback</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link ms-sm-5" href="<?=BASE ?>signup">Login</a>
+          <a class="nav-link ms-sm-5" href="<?=BASE ?>queries">Query</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link ms-sm-5" href="<?=BASE ?>signup">Signup</a>
         </li>
       </ul>
     </div>

@@ -19,7 +19,6 @@
 
 #box
 {
-    height:300px;
     width: 60%;
     border:1px solid  black;
     margin: 150px auto;
@@ -27,20 +26,3 @@
     box-shadow: 10px 10px 10px 10px white;
     border-radius: 28px;
 }
-<<<<<<< HEAD
-=======
-.location
-{
-    height: 500px;
-}
-#title
-{
- height:30px;
-}
-
-.carousel-item img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
->>>>>>> 82c5298657d402b7ba5f4a11ce39ee33f4eee403
