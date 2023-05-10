@@ -1,8 +1,9 @@
-<?php
+<?php 
   $this->view("includes/header");
   $this->view("includes/navigation");
-  
-?> 
+
+?>
+
 <div class="row">
  <div class="col-2 mt-sm-5 ms-sm-5 border border-3 " > <br> 
    <select class="w-75">
