@@ -1,26 +1,27 @@
-<div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner" >
-    <div class="carousel-item active">
-      <img src="<?=ASSETS ?>images/img1.jpg" class="d-block w-100" alt="..." height="600px" style="object-fit:cover;" >
+ <div id="backgroundimage">
+    <div id="box">
+      <br>
+      <center><h3 class="ms-sm-5 mb-sm-2">Statistics</h3></center> 
+      <br>
+      <div class="row">
+        <br>
+       <div class="col-4">
+         <h5 class="ms-sm-5">Total no of issue</h5> <br>
+         <h6 class="ms-sm-5">87808</h6>                                 
+       </div>
+       <div class="col-4">
+         <h5 class="ms-sm-5">Issue pending</h5> <br>
+         <h6 class="ms-sm-5">33535</h6>
+       </div>
+        <div class="col-4">
+         <h5 class="ms-sm-5">Issue solved</h5>
+         <br>
+         <h6 class="ms-sm-5">56645</h6>
+       </div>
+      </div>
+    
     </div>
-    <div class="carousel-item">
-      <img src="<?=ASSETS ?>images/img2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="<?=ASSETS ?>images/img3.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+   
+   <br> 
 </div>
+ 
