@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="<?=ASSETS ?>css/style.css">
 
     <style>
-        #map { height: 500px; }
+        #map { height: 300px; }
     </style>
 </head>
 <body onload="reverseGeocode()">

@@ -3,12 +3,11 @@
 .feedback{
     min-height: 100vh;
     width: 100%;
-    background-image: url("../images/img2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(255, 0, 51, 0.685);
 }
+
 
 #navigation
 {
@@ -18,11 +17,14 @@
 
 
 #box
-{  position: absolute;
+{   
+    position: absolute;
     top:100px;
-    width: 60%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 40%;
     border:1px solid  black;
-    margin: 150px auto;
+    margin: 20px auto;
     background-color: var(--whiteColor);
     border-radius: 28px;
     z-index:9999;          
@@ -82,12 +84,12 @@ body {
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.626);
+    background-color: rgba(51, 51, 51, 0.626);
 }
 
 .homelogin{
     width: 400px;
-    margin: 100px auto;
+    margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -97,4 +99,14 @@ body {
 
 .inputFields:focus{
     background-color: none;
+}
+
+.navigation{
+    width: 80%;
+    margin: 10px auto;
+}
+
+
+.card-stats{
+    background-color: rgba(0, 0, 0, 0.747);
 }

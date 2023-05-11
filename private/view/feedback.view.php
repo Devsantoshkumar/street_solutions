@@ -12,18 +12,18 @@ if(count($errors)>0){
 
     <div class="container-fluid feedback">
         <div class="row d-flex justify-content-center align-items-center py-5">
-            <div class="col-7">
-                <div class="card border-0 shadow-sm">
-                    <div class="card-header bg-info border-0 p-4">
-                        <h4 class="text-uppercase">Send Your Feedback</h4>
+            <div class="col-7 pt-5">
+                <div class="card feedbackcard border-0 shadow-sm">
+                    <div class="card-header bg-primary border-0 p-3">
+                        <h4 class="text-uppercase text-light fw-bold">Send Your Feedback</h4>
                     </div>
-                    <div class="card-body p-5">
+                    <div class="card-body p-5 py-3">
                         <form method="POST" enctype="multipart/form-data">
                             <div class="input-group my-2">
                                 <input type="text" name="title" class="form-control" id="title" placeholder="Write subject">
                             </div>
                             <div class="input-group my-2">
-                                <textarea name="description" class="form-control" rows="5" placeholder="Breaf description"></textarea>
+                                <textarea name="description" class="form-control" rows="3" placeholder="Breaf description"></textarea>
                             </div>
                             <div class="input-group my-2">
                                 <div class="row">
@@ -54,7 +54,7 @@ if(count($errors)>0){
                                 <?php endif; ?>
                                 </div>
                             </div>
-                            <br><br>
+                            <br>
 
                             <div class="row">
                                 <div class="col">
@@ -80,7 +80,7 @@ if(count($errors)>0){
                                 </select>
                                 </div>
                             </div>
-                            <br><br>
+                            <br>
 
 
                             <div class="input-group my-2">

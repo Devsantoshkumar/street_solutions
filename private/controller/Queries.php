@@ -5,7 +5,7 @@ class Queries extends Controller{
 
         $feedback = new Feedback();
 
-        $data = $feedback->findAll();
+        $data = $feedback->query("SELECT * FROM feedbacks ORDER BY feedbacks_id DESC");
         
         $this->view("query",['rows'=>$data]);
     }

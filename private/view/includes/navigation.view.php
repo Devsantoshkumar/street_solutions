@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg " id="navigation">
+<nav class="navbar fixed-top navbar-expand-lg rounded shadow navigation" id="navigation">
   <div class="container-fluid ">
-    <a class="navbar-brand ms-sm-5 text-white" href="#">Navbar</a>
+    <a class="navbar-brand ms-sm-5 text-white" href="#">Street Solution</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -19,7 +19,7 @@
           <a class="nav-link ms-sm-5 text-white" href="<?=BASE ?>signup">Signup</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link ms-sm-5" href="<?=BASE ?>logout">Logout</a>
+          <a class="nav-link text-white ms-sm-5" href="<?=BASE ?>logout">Logout</a>
         </li>
       </ul>
     </div>

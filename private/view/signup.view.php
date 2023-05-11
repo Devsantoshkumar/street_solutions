@@ -5,7 +5,7 @@
 <div id="box" class="p-5">
     <br>
    <center><h3 class="ms-sm-5 mb-sm-2">Signup and Send Feedback</h3></center> 
-   <br><br>
+   <br>
     <form method="POST">
     <div class="row">
         <div class="col">
@@ -17,7 +17,7 @@
            <small class="text-danger"><?=isset($errors['email']) ? $errors['email'] : "" ?></small>
           </div>
     </div>
-    <br><br>
+    <br>
 
     <div class="row">
         <div class="col">
@@ -25,7 +25,7 @@
            <small class="text-danger"><?=isset($errors['phone']) ? $errors['phone'] : "" ?></small>
         </div>
     </div>
-    <br><br>
+    <br>
 
     <div class="row">
         <div class="col">
@@ -36,17 +36,17 @@
           <input type="password" name="cpassword" class="form-control" id="exampleFormControlInput1" placeholder="Password" >
         </div>
     </div>
-    <br><br>
+    <br>
 
     <div class="row">
         <div class="col">
           <small>I have already an account. <a href="<?=BASE ?>login" class="badge bg-primary">Login</a></small>
         </div>
     </div>
-    <br><br>
+    <br>
 
     <div class="row">
-        <div class="col-3 px-5">
+        <div class="col-3 px-2">
             <button class="btn btn-sm btn-primary" type="submit">Signup</button>
         </div>
     </div>

@@ -1,6 +1,11 @@
 <?php
 
 class Departments extends Controller{
+    function __construct(){
+        if(!Auth::loggedIn()){
+          $this->redirect('home');
+        }
+    }
     function index(){
         
          $errors = [];

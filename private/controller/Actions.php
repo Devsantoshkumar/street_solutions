@@ -1,6 +1,11 @@
 <?php
 
 class Actions extends Controller{
+    function __construct(){
+        if(!Auth::loggedIn()){
+          $this->redirect('home');
+        }
+    }
     function index($id=NULL){
         
          $errors = [];

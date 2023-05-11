@@ -1,6 +1,15 @@
 <nav class="navbar rounded sticky-top navbar-expand-lg navbar-light bg-white shadow-sm topbar">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Pannel</a>
+  <?php 
+      if(Auth::user("department")==1){
+          $department = "National Highways Authority of India";
+      }else if(Auth::user("department")==2){
+          $department = "State Public Works Departments";
+      }else{
+          $department = "Panchayati Raj Departments";
+      }
+   ?>
+    <a class="navbar-brand" href="#"><?=$department ?></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
