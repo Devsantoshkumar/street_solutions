@@ -34,6 +34,10 @@ class Actions extends Controller{
             $_POST['status'] = 1;
             $feedback->update($id, $_POST);
             $this->redirect("dashboard");
+        }else{
+            $_POST['status'] = 0;
+            $feedback->update($id, $_POST);
+            $this->redirect("dashboard");
         }
     }
 }
