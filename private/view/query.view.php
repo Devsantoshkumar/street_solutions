@@ -5,13 +5,13 @@
 
 <div class="row">
  <div class="col-2 mt-sm-5 ms-sm-5 border border-3 " > <br> 
-   <select class="w-75">
+   <select class="w-100 fs-4">
       <option value="option1">State
       </option>
       <option value="option2">up</option>
       <option value="option3">bihar</option>
     </select> <br> <br><br><br>
-    <select class="w-75">
+    <select class="w-100 fs-4">
       <option value="option1">City
       </option>
       <option value="option2">lucknow</option>
@@ -43,7 +43,7 @@
    <?php endif; ?>
   </div>
 </div>
-
+<br><br>
 <?php
   $this->view("includes/footer");
 ?>
