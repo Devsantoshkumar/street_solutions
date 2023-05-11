@@ -84,3 +84,17 @@ body {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.626);
 }
+
+.homelogin{
+    width: 400px;
+    margin: 100px auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.inputFields{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.inputFields:focus{
+    background-color: none;
+}
